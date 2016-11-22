@@ -17,6 +17,9 @@
       "src/bootstrap.php"
     ]
   },
+  "require": {
+    "danielstjules/stringy": "^2.3"
+  },
   "scripts": {
     "cli": "php public_html/index.php",
     "http": "php -S localhost:8000 -t public_html/"
