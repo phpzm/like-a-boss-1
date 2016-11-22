@@ -1,0 +1,24 @@
+{
+  "name": "company/project",
+  "description": "PHP Hero Project",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Me",
+      "email": "myemal@mycompany.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "HeroProject\\": "src/"
+    },
+    "files": [
+      "src/bootstrap.php"
+    ]
+  },
+  "scripts": {
+    "cli": "php public_html/index.php",
+    "http": "php -S localhost:8000 -t public_html/"
+  }
+}
