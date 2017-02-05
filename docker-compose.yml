@@ -1,0 +1,7 @@
+apache-like-a-boss-1:
+  image: ambientum/php:7.0-apache
+  container_name: apache-like-a-boss-1
+  volumes:
+    - .:/var/www/app/
+  ports:
+    - "9090:8080"
